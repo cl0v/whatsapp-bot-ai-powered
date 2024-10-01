@@ -5,7 +5,7 @@ import { Ollama } from "@langchain/ollama";
 
 
 const model = new Ollama({
-  model: "mistral",
+  model: "llama3.1",
   temperature: 0,
   lowVram: true,
 });
